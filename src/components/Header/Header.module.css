@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #202024;
+  padding: 20px 30px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  margin-left: 15px;
+
+  font-weight: 700;
+  font-size: 25.5853px;
+  line-height: 160%;
+  color: #E1E1E6;
+}
+
+.logoutButton {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #F75A68;
+}
