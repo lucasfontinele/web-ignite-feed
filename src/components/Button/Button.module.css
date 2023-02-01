@@ -54,7 +54,7 @@
 .outlined:hover {
   background: var(--green-light);
   color: var(--white);
-  border: none;
+  border: 1px solid var(--green-light);
 }
 
 .outlined > span {
