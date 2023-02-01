@@ -2,6 +2,7 @@ import { FaEdit } from 'react-icons/fa'
 import { UserCardProps } from '.'
 import { Button, StyleVariant } from '../Button'
 import styles from './UserCard.module.css'
+import { ProfilePicture } from '../ProfilePicture'
 
 export const UserCard = ({
   name,
@@ -21,11 +22,9 @@ export const UserCard = ({
         data-testid="user-card-cover"
         className={styles.cover}
       />
-      <img
-        src={pictureUrl}
-        data-testid="user-card-picture"
-        className={styles.picture}
-      />
+      <div data-testid="user-card-picture" className={styles.profilePictureContainer}>
+        <ProfilePicture src={pictureUrl} />
+      </div>
 
       <div className={styles.content}>
         <p data-testid="user-card-name" className={styles.name}>

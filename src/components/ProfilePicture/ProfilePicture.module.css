@@ -1,0 +1,9 @@
+.picture {
+  border-radius: 8px;
+  border: 2px solid var(--green-light);
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+
+  align-self: center;
+}

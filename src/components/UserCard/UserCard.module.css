@@ -14,13 +14,7 @@
   object-fit: cover;
 }
 
-.picture {
-  border-radius: 8px;
-  border: 2px solid var(--green-light);
-  height: 60px;
-  width: 60px;
-  object-fit: cover;
-
+.profilePictureContainer {
   margin-top: -35px;
   align-self: center;
 }
