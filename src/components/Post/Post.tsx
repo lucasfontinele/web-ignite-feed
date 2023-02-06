@@ -5,7 +5,7 @@ import styles from './Post.module.css'
 
 export const Post = ({ author, content, createdAt, tags }: PostProps) => {
   return (
-    <article className={styles.container}>
+    <article data-testid="post-testid" className={styles.container}>
       <header>
         <div className={styles.headerWrapper}>
           <div className={styles.authorContainer}>

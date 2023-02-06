@@ -1,8 +1,9 @@
 import { UserCard } from './UserCard'
-import { UserCardProps } from './UserCard.misc'
+import { UserCardProps, mock } from './UserCard.misc'
 
 export {
   UserCard,
+  mock,
 }
 
 export type {
