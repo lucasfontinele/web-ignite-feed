@@ -8,7 +8,7 @@ export type HeaderProps = {
 
 export const Header = ({ onLogout }: HeaderProps) => {
   return (
-    <header className={styles.container} role="heading">
+    <header className={styles.container} data-testid="app-header" role="heading">
       <div />
 
       <div className={styles.logoContainer}>
