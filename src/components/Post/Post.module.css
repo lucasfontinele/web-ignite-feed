@@ -1,0 +1,74 @@
+.storybookContainer {
+  max-width: 840px;
+}
+
+.container {
+  background: var(--gray2);
+  padding: 40px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.authorContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.headerWrapper > time {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: var(--gray5);
+}
+
+.authorProfileWrapper > strong {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--gray7);
+}
+
+.authorProfileWrapper > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: var(--gray5);
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.contentContainer > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--gray6);
+}
+
+.tagsContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+
+.tagsContainer > a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--green-light);
+  text-decoration: none;
+}

@@ -1,9 +1,16 @@
 .picture {
   border-radius: 8px;
+  object-fit: cover;
+  align-self: center;
+}
+
+.highlighted {
   border: 2px solid var(--green-light);
   height: 60px;
   width: 60px;
-  object-fit: cover;
+}
 
-  align-self: center;
+.default {
+  height: 50px;
+  width: 50px;
 }
